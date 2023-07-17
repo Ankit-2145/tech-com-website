@@ -1,0 +1,269 @@
+/* Header */
+
+.prevs-head-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.prevs-head-container .head-text h2 {
+  color: var(--color-secondary);
+  font-size: 90px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.prevs-head-container .head-text p {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.prevs-head-container .head-image img {
+  width: 550px;
+}
+
+/* Semester3 */
+
+.sem-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 0px 0;
+}
+
+.sem-container h3 {
+  color: var(--color-success);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 30px 0 30px 0;
+}
+
+.sem-container .sem-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin: 40px 0px 40px 0;
+}
+
+.sem-container .sem-content article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.sem-container .sem-content article .article-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-light);
+  text-align: center;
+}
+
+.sem-container .sem-content .btn {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+/*MEDIA QUERIES (TABLETS)*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav button {
+    display: inline-block;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 12;
+    border: none;
+  }
+
+  nav button i {
+    color: var(--color-primary);
+  }
+
+  nav button#close-menu-btn {
+    display: none;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 5rem;
+    right: 5%;
+    height: fit-content;
+    width: 18rem;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+  }
+
+  .nav__menu li {
+    width: 100%;
+    height: 70px;
+    animation: animateNavItems 400ms linear forwards;
+    transform-origin: top right;
+    opacity: 0;
+  }
+
+  .nav__menu li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .nav__menu li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav__menu li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  .nav__menu li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+
+  .nav__menu li:nth-child(6) {
+    animation-delay: 1000ms;
+  }
+
+  .nav__menu li:nth-child(7) {
+    animation-delay: 1200ms;
+  }
+
+  .nav__menu li:nth-child(8) {
+    animation-delay: 1400ms;
+  }
+
+  @keyframes animateNavItems {
+    0% {
+      transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+    }
+
+    100% {
+      transform: rotateZ(0) rotateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  .nav__menu li a {
+    background: var(--color-white);
+    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+  }
+
+  .nav__menu li a:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+  }
+
+  .prevs-head-container {
+    gap: 0;
+    margin-top: 130px;
+  }
+
+  .prevs-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .prevs-head-container .head-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .prevs-head-container .head-image img {
+    width: 400px;
+  }
+
+  .sem-container h2 {
+    font-size: 34px;
+  }
+
+  .sem-container h3 {
+    font-size: 28px;
+  }
+}
+
+/* MEDIA QUERIES(PHONES) */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .nav__menu {
+    right: 3%;
+  }
+
+  .prevs-head-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .prevs-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .prevs-head-container .head-text p {
+    width: 100%;
+  }
+
+  .prevs-head-container .head-image img {
+    width: 400px;
+  }
+
+  .sem-container .sem-content {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px 0 20px;
+  }
+
+  .sem-container .sem-content article .article-text h4 {
+    font-size: 16px;
+  }
+}
+
+/* Media queries for small screen */
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .prevs-head-container {
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .prevs-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .prevs-head-container .head-text p {
+    width: 100%;
+  }
+
+  .prevs-head-container .head-image img {
+    width: 350px;
+  }
+}

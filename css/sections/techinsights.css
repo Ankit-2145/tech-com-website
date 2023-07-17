@@ -1,0 +1,527 @@
+/* Header */
+
+.tech-head-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.tech-head-container .head-text h2 {
+  color: var(--color-secondary);
+  font-size: 90px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.tech-head-container .head-text p {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.tech-head-container .head-image img {
+  width: 550px;
+}
+
+/* Tech today */
+
+.tech-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.tech-section-container ol li::marker {
+  color: var(--color-secondary);
+  font-size: 20px;
+}
+
+.tech-section-container ol li a {
+  font-size: 20px;
+  color: var(--color-dark-grey);
+  line-height: 1.9;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.tech-section-container ol li a:hover {
+  color: var(--color-success);
+  text-decoration: underline;
+}
+
+/* Blogs & Articles */
+
+.blogs-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 0px 0;
+}
+
+.blogs-section-container h3 {
+  color: var(--color-secondary);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 90px 0 30px 0;
+}
+
+.blogs-section-container .web-dev-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 50px;
+}
+
+.blogs-section-container .web-dev-content article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-section-container .web-dev-content article .article-image img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.blogs-section-container .web-dev-content article .article-text {
+  width: 100%;
+}
+
+.blogs-section-container .web-dev-content article .article-text h5 a {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.blogs-section-container .web-dev-content article .article-text h5 a:hover {
+  color: var(--color-secondary);
+}
+
+.blogs-section-container .web-dev-content article .article-text p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.9;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: var(--color-light);
+}
+
+/* AI Content */
+
+.blogs-section-container .ai-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 50px;
+}
+
+.blogs-section-container .ai-content article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-section-container .ai-content article .article-image img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.blogs-section-container .ai-content article .article-text {
+  width: 100%;
+}
+
+.blogs-section-container .ai-content article .article-text h5 a {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.blogs-section-container .ai-content article .article-text h5 a:hover {
+  color: var(--color-secondary);
+}
+
+.blogs-section-container .ai-content article .article-text p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.9;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: var(--color-light);
+}
+
+/* Crypto */
+
+.blogs-section-container .cyber-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 50px;
+}
+
+.blogs-section-container .cyber-content article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-section-container .cyber-content article .article-image img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.blogs-section-container .cyber-content article .article-text {
+  width: 100%;
+}
+
+.blogs-section-container .cyber-content article .article-text h5 a {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.blogs-section-container .cyber-content article .article-text h5 a:hover {
+  color: var(--color-secondary);
+}
+
+.blogs-section-container .cyber-content article .article-text p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.9;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: var(--color-light);
+}
+
+/* Tech Talk */
+
+.talk-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 50px 0;
+}
+
+.talk-section-container .talk-section-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 50px;
+}
+
+.talk-section-container .talk-section-content article {
+  background: var(--color-white);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px var(--color-light);
+}
+
+.talk-section-container .talk-section-content article:hover {
+  box-shadow: 0px 4px 5px var(--color-light);
+}
+
+.talk-section-container .talk-section-content article h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: center;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+}
+
+/*MEDIA QUERIES (TABLETS)*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav button {
+    display: inline-block;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 12;
+    border: none;
+  }
+
+  nav button i {
+    color: var(--color-primary);
+  }
+
+  nav button#close-menu-btn {
+    display: none;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 5rem;
+    right: 5%;
+    height: fit-content;
+    width: 18rem;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+  }
+
+  .nav__menu li {
+    width: 100%;
+    height: 70px;
+    animation: animateNavItems 400ms linear forwards;
+    transform-origin: top right;
+    opacity: 0;
+  }
+
+  .nav__menu li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .nav__menu li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav__menu li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  .nav__menu li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+
+  .nav__menu li:nth-child(6) {
+    animation-delay: 1000ms;
+  }
+
+  .nav__menu li:nth-child(7) {
+    animation-delay: 1200ms;
+  }
+
+  .nav__menu li:nth-child(8) {
+    animation-delay: 1400ms;
+  }
+
+  @keyframes animateNavItems {
+    0% {
+      transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+    }
+
+    100% {
+      transform: rotateZ(0) rotateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  .nav__menu li a {
+    background: var(--color-white);
+    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+  }
+
+  .nav__menu li a:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+  }
+
+  .tech-head-container {
+    gap: 0;
+    margin-top: 130px;
+  }
+
+  .tech-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .tech-head-container .head-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .tech-head-container .head-image img {
+    width: 400px;
+  }
+
+  .tech-section-container h2 {
+    font-size: 34px;
+  }
+
+  .tech-section-container ol li a {
+    font-size: 16px;
+  }
+
+  .blogs-section-container h2 {
+    font-size: 34px;
+  }
+
+  .blogs-section-container h3 {
+    font-size: 24px;
+  }
+
+  .talk-section-container h2 {
+    font-size: 34px;
+  }
+
+  .talk-section-container .talk-section-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MEDIA QUERIES(PHONES) */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .nav__menu {
+    right: 3%;
+  }
+
+  .tech-head-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .tech-head-container .head-text h2 {
+    font-size: 55px;
+  }
+
+  .tech-head-container .head-text p {
+    width: 90%;
+  }
+
+  .tech-head-container .head-image img {
+    width: 400px;
+  }
+
+  .tech-section-container ol li {
+    width: 90%;
+  }
+
+  .tech-section-container ol li a {
+    font-size: 16px;
+  }
+
+  .tech-section-container {
+    margin-left: 30px;
+  }
+
+  .blogs-section-container .web-dev-content {
+    grid-template-columns: 1fr;
+  }
+
+  .blogs-section-container .ai-content {
+    grid-template-columns: 1fr;
+  }
+
+  .blogs-section-container .cyber-content {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-section-container .talk-section-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media queries for small screen */
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .tech-head-container {
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .tech-head-container .head-text h2 {
+    font-size: 55px;
+  }
+
+  .tech-head-container .head-text p {
+    width: 90%;
+  }
+
+  .tech-head-container .head-image img {
+    width: 350px;
+  }
+
+  .tech-section-container {
+    margin-left: 30px;
+  }
+
+  .tech-section-container ol li {
+    width: 90%;
+  }
+
+  .tech-section-container ol li a {
+    font-size: 16px;
+    width: min-content;
+  }
+
+  .blogs-section-container .web-dev-content article .article-text {
+    width: 95%;
+  }
+
+  .blogs-section-container .web-dev-content article .article-image img {
+    width: 95%;
+  }
+
+  .blogs-section-container .ai-content article .article-text {
+    width: 95%;
+  }
+
+  .blogs-section-container .ai-content article .article-image img {
+    width: 95%;
+  }
+
+  .blogs-section-container .cyber-content article .article-text {
+    width: 95%;
+  }
+
+  .blogs-section-container .cyber-content article .article-image img {
+    width: 95%;
+  }
+
+  .talk-section-content article iframe {
+    width: 287px;
+    height: 180px;
+  }
+
+  .talk-section-container .talk-section-content article h4 {
+    font-size: 12px;
+  }
+}

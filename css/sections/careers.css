@@ -1,0 +1,501 @@
+/* Header */
+
+.career-head-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.career-head-container .head-text h2 {
+  color: var(--color-secondary);
+  font-size: 90px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.career-head-container .head-text p {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.career-head-container .head-image img {
+  width: 550px;
+}
+
+/* What can you do? */
+
+.career-job-roles h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.career-job-roles h3 {
+  color: var(--color-dark);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+/* Role/skill Based Roadmaps */
+
+.role-rm-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 1008px;
+  margin: 0 auto;
+}
+
+.career-job-roles .role-rm-container article {
+  padding: 20px 40px 20px 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-white);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 3px var(--color-shadow);
+}
+
+.career-job-roles .role-rm-container article:hover {
+  box-shadow: 0 4px 10px var(--color-shadow);
+}
+
+.career-job-roles .role-rm-container article .role-rm-text a {
+  text-decoration: none;
+}
+
+.career-job-roles .role-rm-container h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--color-light);
+}
+
+.career-job-roles .role-rm-container .role-rm-text p {
+  font-size: 14px;
+  padding-top: 8px;
+  color: var(--color-light);
+}
+
+.career-job-roles .role-rm-container h4:hover {
+  color: var(--color-secondary);
+}
+
+.career-job-roles .role-rm-container .role-rm-image img {
+  width: 50px;
+}
+
+.career-job-roles #note {
+  font-size: 18px;
+  color: var(--color-light);
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Interview preparation websites */
+
+.interview-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.interview-container p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.9;
+  color: var(--color-light);
+}
+
+.interview-container .sites-list {
+  padding: 40px;
+}
+
+.interview-container .sites-list ol li {
+  padding: 10px;
+  font-size: 18px;
+  padding-bottom: 9px;
+}
+
+.interview-container .sites-list ol li::marker {
+  color: var(--color-primary);
+  padding-left: 5px;
+}
+
+.interview-container .sites-list ol li a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.interview-container .sites-list ol li a:hover {
+  color: var(--color-light);
+}
+
+/* Master's Degree Guide */
+
+.master-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.master-section-container p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.9;
+  color: var(--color-light);
+}
+
+.master-section-container .master-section-content h4 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.master-section-container .master-section-content h5 {
+  color: var(--color-secondary);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.master-section-container .master-section-content span {
+  color: var(--color-success);
+  font-weight: 600;
+}
+
+.master-section-container .master-section-content .master-section-mca ul {
+  margin-top: 30px;
+}
+
+.master-section-container .master-section-content .master-section-mca ul li {
+  padding: 5px;
+  font-size: 18px;
+  color: var(--color-dark-grey);
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.master-section-container
+  .master-section-content
+  .master-section-mca
+  ul
+  li::marker {
+  color: var(--color-dark);
+}
+
+.master-section-container .master-section-content .master-section-mba ul {
+  margin-top: 30px;
+}
+
+.master-section-container .master-section-content .master-section-mba ul li {
+  padding: 5px;
+  font-size: 18px;
+  color: var(--color-dark-grey);
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.master-section-container
+  .master-section-content
+  .master-section-mba
+  ul
+  li::marker {
+  color: var(--color-dark);
+}
+
+.master-section-container .master-section-content .master-section-ms ul {
+  margin-top: 30px;
+}
+
+.master-section-container .master-section-content .master-section-ms ul li {
+  padding: 5px;
+  font-size: 18px;
+  color: var(--color-dark-grey);
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+
+.master-section-container
+  .master-section-content
+  .master-section-ms
+  ul
+  li::marker {
+  color: var(--color-dark);
+}
+
+.master-section-container .master-section-content .master-section-ms h6 {
+  color: var(--color-danger);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 60px 0 30px 0;
+}
+
+.master-section-container .master-section-content .master-section-ms h3 {
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 60px 0 30px 0;
+}
+
+/*MEDIA QUERIES (TABLETS)*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav button {
+    display: inline-block;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 12;
+    border: none;
+  }
+
+  nav button i {
+    color: var(--color-primary);
+  }
+
+  nav button#close-menu-btn {
+    display: none;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 5rem;
+    right: 5%;
+    height: fit-content;
+    width: 18rem;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+  }
+
+  .nav__menu li {
+    width: 100%;
+    height: 70px;
+    animation: animateNavItems 400ms linear forwards;
+    transform-origin: top right;
+    opacity: 0;
+  }
+
+  .nav__menu li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .nav__menu li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav__menu li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  .nav__menu li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+
+  .nav__menu li:nth-child(6) {
+    animation-delay: 1000ms;
+  }
+
+  .nav__menu li:nth-child(7) {
+    animation-delay: 1200ms;
+  }
+
+  .nav__menu li:nth-child(8) {
+    animation-delay: 1400ms;
+  }
+
+  @keyframes animateNavItems {
+    0% {
+      transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+    }
+
+    100% {
+      transform: rotateZ(0) rotateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  .nav__menu li a {
+    background: var(--color-white);
+    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+  }
+
+  .nav__menu li a:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+  }
+
+  .career-head-container {
+    gap: 0;
+    margin-top: 130px;
+  }
+
+  .career-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .career-head-container .head-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .career-head-container .head-image img {
+    width: 400px;
+  }
+
+  .career-job-roles h2 {
+    font-size: 34px;
+  }
+
+  .career-job-roles #note {
+    font-size: 16px;
+  }
+
+  .role-rm-container {
+    width: 900px;
+  }
+
+  .interview-container h2 {
+    font-size: 34px;
+  }
+
+  .interview-container p {
+    font-size: 16px;
+  }
+
+  .master-section-container h2 {
+    font-size: 34px;
+  }
+
+  .master-section-container p {
+    font-size: 16px;
+  }
+
+  .master-section-container .master-section-content h4 {
+    font-size: 30px;
+  }
+
+  .master-section-container .master-section-content h5 {
+    font-size: 28px;
+  }
+}
+
+/* MEDIA QUERIES(PHONES) */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .nav__menu {
+    right: 3%;
+  }
+
+  .career-head-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .career-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .career-head-container .head-text p {
+    width: 100%;
+  }
+
+  .career-head-container .head-image img {
+    width: 400px;
+  }
+
+  .career-job-roles #note {
+    width: 100%;
+  }
+
+  .role-rm-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .career-job-roles .role-rm-container h4 {
+    font-size: 16px;
+  }
+
+  .master-section-container .master-section-content .master-section-mca ul li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .master-section-container .master-section-content .master-section-mba ul li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .master-section-container .master-section-content .master-section-ms ul li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+}
+
+/* Media queries for small screen */
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .career-head-container {
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 130px;
+  }
+
+  .career-head-container .head-text h2 {
+    font-size: 60px;
+  }
+
+  .career-head-container .head-text p {
+    width: 100%;
+  }
+
+  .career-head-container .head-image img {
+    width: 350px;
+  }
+}

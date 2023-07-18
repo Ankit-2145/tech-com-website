@@ -115,7 +115,7 @@ function showContent(option) {
   } else if (option === "option6") {
     content.innerHTML = `<h2>Uniform</h2>
     <p>The student admitted to BCAcourse will have to wear the uniform as prescribed below:-<br>
-    1. Steel Grey Trousers <br>2. Off White Shirt <br>3. Maroon Tie <br>4.Steel Grey Sweater <br>5. Navy Blue Blazer <br>6. White Socks <br>7.Black Shoes</p>`;
+    1. Steel Grey Trousers <br>2. Off White Shirt <br>3. Maroon Tie <br>4.Steel Grey Sweater <br>5. Navy Blue Blazer <br>6. White Socks <br>7. Black Shoes</p>`;
   } else if (option === "option7") {
     content.innerHTML = `<h2>Semester 1(1st Year)</h2>
     <p>In the first semester of your BCA program, you will be introduced to a diverse range of subjects that will lay the foundation for your studies in computer applications.<br> You will start with Mathematics-I (BCA0101), where you will learn essential mathematical concepts and techniques relevant to computer science. This will provide you with a solid mathematical base for your future programming and problem-solving endeavors.

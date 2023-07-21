@@ -341,7 +341,7 @@ footer {
     position: absolute;
     width: 45%;
     background: var(--color-white);
-    height: 104%;
+    height: 120%;
     display: none;
   }
 

@@ -120,7 +120,7 @@
 
 .admin-section-container .admin-cards-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   place-items: center;
 }
 
@@ -157,6 +157,63 @@
 }
 
 .admin-section-container .admin-cards-container article .admin-text small {
+  font-weight: 600;
+  color: var(--color-light);
+}
+
+/* Support Staff */
+
+.support-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 60px 0;
+}
+
+.support-section-container .support-cards-container {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  place-items: center;
+}
+
+.support-section-container .support-cards-container article {
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px var(--color-light);
+}
+
+.support-section-container .support-cards-container article:hover {
+  box-shadow: 0px 4px 5px var(--color-light);
+}
+
+.support-section-container .support-cards-container article .support-image img {
+  width: 220px;
+  height: 257px;
+  border-radius: 10px 10px 0 0;
+}
+
+.support-section-container .support-cards-container article .support-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.support-section-container .support-cards-container article .support-text h4 {
+  font-size: 16px;
+  color: var(--color-secondary);
+}
+
+.support-section-container
+  .support-cards-container
+  article
+  .support-text
+  small {
   font-weight: 600;
   color: var(--color-light);
 }
@@ -204,7 +261,7 @@
 .student-section-container .student-cards-container article .student-image img {
   width: 220px;
   height: 257px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .student-section-container .student-cards-container article .student-text {
@@ -358,7 +415,21 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .admin-section-container .admin-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .student-section-container .student-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
   .admin-section-container h2 {
+    font-size: 34px;
+  }
+
+  .support-section-container h2 {
     font-size: 34px;
   }
 
@@ -421,6 +492,11 @@
   }
 
   .admin-section-container .admin-cards-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .student-section-container .student-cards-container {
     grid-template-columns: 1fr;
     gap: 50px;
   }

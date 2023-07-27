@@ -6,6 +6,12 @@ window.addEventListener("scroll", () => {
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
 
+// Get Date
+
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
+console.log(date);
+
 //show/hide nav menu
 
 const menu = document.querySelector(".nav__menu");
@@ -49,11 +55,6 @@ const closeSidebar = () => {
 };
 
 CloseBtn.addEventListener("click", closeSidebar);
-
-// Get Date
-
-const date = document.getElementById("date");
-date.innerHTML = new Date().getFullYear();
 
 //Academics sidebar content
 

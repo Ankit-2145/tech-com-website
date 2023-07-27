@@ -586,6 +586,10 @@ footer ul li a:hover {
   font-size: 16px;
 }
 
+.footer__copyright #date {
+  color: var(--color-dark);
+}
+
 /*MEDIA QUERIES (TABLETS)*/
 
 @media screen and (max-width: 1024px) {

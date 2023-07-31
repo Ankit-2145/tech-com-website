@@ -108,6 +108,60 @@
   color: var(--color-light);
 }
 
+/* Guest faculty */
+
+.guest-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 60px 0;
+}
+
+.guest-section-container .guest-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 50px;
+}
+
+.guest-section-container .guest-cards-container article {
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px var(--color-light);
+}
+
+.guest-section-container .guest-cards-container article:hover {
+  box-shadow: 0px 4px 5px var(--color-light);
+}
+
+.guest-section-container .guest-cards-container article .guest-image img {
+  width: 220px;
+  height: 257px;
+  border-radius: 10px 10px 0 0;
+}
+
+.guest-section-container .guest-cards-container article .guest-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.guest-section-container .guest-cards-container article .guest-text h4 {
+  font-size: 16px;
+  color: var(--color-secondary);
+}
+
+.guest-section-container .guest-cards-container article .guest-text small {
+  font-weight: 600;
+  color: var(--color-light);
+}
+
 /* Admin Staff */
 
 .admin-section-container h2 {
@@ -485,6 +539,11 @@
 
   .faculty-section-container .faculty-cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .guest-section-container .guest-cards-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
   }
 
   .admin-section-container h2 {

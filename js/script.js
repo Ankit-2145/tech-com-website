@@ -10,7 +10,6 @@ window.addEventListener("scroll", () => {
 
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
-console.log(date);
 
 //show/hide nav menu
 

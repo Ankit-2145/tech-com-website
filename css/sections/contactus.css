@@ -95,7 +95,7 @@
   font-size: 16px;
   border-radius: 10px;
   outline: none;
-  border: 1px solid var(--color-light);
+  border: 2px solid #ebebeb;
 }
 
 .input-form .form__name input::placeholder {
@@ -110,7 +110,7 @@
   font-size: 16px;
   outline: none;
   border-radius: 10px;
-  border: 1px solid var(--color-light);
+  border: 2px solid #ebebeb;
   resize: none;
 }
 

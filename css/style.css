@@ -460,19 +460,43 @@ nav button {
 }
 
 .feedback-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  display: flex;
   gap: 40px;
+  overflow-x: hidden;
+}
+
+.feedbacks a {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 20vw;
 }
 
 .feedback-container article {
   background: var(--color-white);
   box-shadow: 2px 4px 10px var(--color-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 265px;
-  width: 385px;
+  width: 385px !important;
   padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
+  animation: shift 25s linear infinite;
+}
+
+@keyframes shift {
+  5% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
 }
 
 .feedback-container article:hover {
@@ -490,7 +514,14 @@ nav button {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  margin-top: 90px;
+}
+
+.feedback-container article .feedback-info h4 {
+  color: var(--color-primary);
+}
+
+.feedback-container article .feedback-info small {
+  color: var(--color-light);
 }
 
 .feedback-container article .feedback-image img {
@@ -803,6 +834,10 @@ footer ul li a:hover {
     font-size: 14px;
   }
 
+  .feedbacks a {
+    font-size: 14px;
+  }
+
   .feedback-container article {
     height: 278px;
     width: 260px;
@@ -937,6 +972,10 @@ footer ul li a:hover {
   .feedback-container {
     grid-template-columns: 1fr;
     place-items: center;
+  }
+
+  .feedbacks a {
+    padding: 10px 100px;
   }
 
   .feedback-container article {

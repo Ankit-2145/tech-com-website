@@ -2,173 +2,176 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- favicon -->
+  <!-- favicon -->
 
-    <link rel="shortcut icon" href="/bca-logo.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="/bca-logo.svg" type="image/x-icon">
 
-    <!-- fontawesome icons -->
+  <!-- fontawesome icons -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- stylesheets -->
+  <!-- stylesheets -->
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sections/academics.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sections/academics.css">
 
-    <title>Academics | BCA community website | Connect, Learn & Collaborate</title>
+  <title>Academics | BCA community website | Connect, Learn & Collaborate</title>
 </head>
 
 <body>
 
-    <!-- Navbar -->
+  <!-- Navbar -->
 
-    <nav>
-        <div class="container nav-container">
-            <div class="nav-logo">
-                <a href="index.html" class="footer__logo">
-                    <img src="/assets/bca-logo.svg" alt="BCA logo">
-                </a>
-            </div>
+  <nav>
+    <div class="container nav-container">
+      <div class="nav-logo">
+        <a href="index.html" class="footer__logo">
+          <img src="/assets/bca-logo.svg" alt="BCA logo">
+        </a>
+      </div>
 
-            <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="techinsights.html">Tech Insights</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-            <button id="open-menu-btn"><i class="fa-solid fa-bars-staggered"></i></button>
-            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-    </nav>
-
-    <!-- Header -->
-
-    <header>
-        <div class="container academics-head-container">
-            <div class="head-text">
-                <h2>Academics</h2>
-                <p>Explore the diverse realm of BCA studies. Uncover a comprehensive curriculum encompassing
-                    programming, database management, software development, and networking. Benefit from expert faculty,
-                    practical training, research opportunities, and a thriving alumni network. Prepare for a successful
-                    career in the ever-evolving field of computer applications.</p>
-            </div>
-            <div class="head-image">
-                <img src="/assets/academics-hero.svg" alt="girl-Studying">
-            </div>
-        </div>
-    </header>
-
-    <!-- Sidebar -->
-
-    <div class="side-btn">
-        <button id="open-btn"><i class="fa-solid fa-bars-staggered"></i></button>
-        <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="techinsights.html">Tech Insights</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="fa-solid fa-bars-staggered"></i></button>
+      <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
     </div>
-    <div class="navigation">
-        <div class="sidebar">
-            <h3>Overview</h3>
-            <ul>
-                <li><a href="#" onclick="showContent('option1')">What is BCA?</a></li>
-                <li><a href="#" onclick="showContent('option2')">Eligibility For BCA</a></li>
-                <li><a href="#" onclick="showContent('option3')">Basis of Admission</a></li>
-                <li><a href="#" onclick="showContent('option4')">Training</a></li>
-                <li><a href="#" onclick="showContent('option5')">Schedule Of Examination</a></li>
-                <li><a href="#" onclick="showContent('option6')">Uniform</a></li>
+  </nav>
 
-                <h3>Courses</h3>
-                <li><a href="#" onclick="showContent('option7')">Semester 1</a></li>
-                <li><a href="#" onclick="showContent('option8')">Semester 2</a></li>
-                <li><a href="#" onclick="showContent('option9')">Semester 3</a></li>
-                <li><a href="#" onclick="showContent('option10')">Semester 4</a></li>
-                <li><a href="#" onclick="showContent('option11')">Semester 5</a></li>
-                <li><a href="#" onclick="showContent('option12')">Semester 6</a></li>
-                <li><a href="previouspapers.html" id="qp">Previous Papers</a></li>
-            </ul>
-        </div>
-        <div class="content container" id="content">
-            <h2>What is BCA?</h2>
-            <p>The full form of BCA is Bachelor's in Computer Application. BCA is a 3-year undergraduate degree
-                programme that focuses on knowledge of the basics of computer application and software development. A
-                BCA degree is considered to be at par with a BTech/BE degree in Computer Science or Information
-                Technology. The degree helps interested students in setting up a sound academic base for an advanced
-                career in Computer Applications. The course of BCA includes database management systems, operating
-                systems, software engineering, web technology and languages such as C, C++, HTML, Java etc.
-            </p>
-            <small>Download the prospectus from below:</small><br>
-            <a href="/docs/BCA-prospectus.pdf" target="_blank" class="btn btn-secondary">Download Now</a>
-        </div>
+  <!-- Header -->
+
+  <header>
+    <div class="container academics-head-container">
+      <div class="head-text">
+        <h2>Academics</h2>
+        <p>Explore the diverse realm of BCA studies. Uncover a comprehensive curriculum encompassing
+          programming, database management, software development, and networking. Benefit from expert faculty,
+          practical training, research opportunities, and a thriving alumni network. Prepare for a successful
+          career in the ever-evolving field of computer applications.</p>
+      </div>
+      <div class="head-image">
+        <img src="/assets/academics-hero.svg" alt="girl-Studying">
+      </div>
     </div>
+  </header>
 
-    <!-- Footer -->
+  <!-- Sidebar -->
 
-    <footer>
-        <div class="container footer__container">
-          <div class="footer__1">
-            <a href="index.html" class="footer__logo">
-              <img src="/assets/bca-logo.svg" alt="bca-logo">
-            </a>
-            <p>A Place to Connect, Learn and Collaborate</p>
-          </div>
-    
-          <div class="footer__2">
-            <h4>About</h4>
-            <ul class="permalinks">
-              <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="aboutus.html">How We Work?</a></li>
-              <li><a href="academics.html">Academics</a></li>
-              <li><a href="resources.html">Resources</a></li>
-              <li><a href="careers.html">Careers</a></li>
-            </ul>
-          </div>
-    
-          <div class="footer__3">
-            <h4>Support</h4>
-            <ul class="privacy">
-              <li><a href="terms&cond.html">Terms and Conditions</a></li>
-              <li><a href="contactus.html">Help Center</a></li>
-            </ul>
-          </div>
-    
-          <div class="footer__4">
-            <h4>Contact Us</h4>
-            <div>
-              <p><a href="tel:++91 7015 325 046">+91 7015 325 046</a></p>
-              <p><a href="https://mail.google.com" target="_blank">bcacommunity23@gmail.com</a></p>
-            </div>
-    
-            <ul class="footer__socials">
-              <li>
-                <a href="https://m.facebook.com/bcasolan" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
+  <div class="side-btn">
+    <button id="open-btn"><i class="fa-solid fa-bars-staggered"></i></button>
+    <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="navigation">
+    <div class="sidebar">
+      <h3>Overview</h3>
+      <ul>
+        <li><a href="#" onclick="showContent('option1')">What is BCA?</a></li>
+        <li><a href="#" onclick="showContent('option2')">Eligibility For BCA</a></li>
+        <li><a href="#" onclick="showContent('option3')">Basis of Admission</a></li>
+        <li><a href="#" onclick="showContent('option4')">Training</a></li>
+        <li><a href="#" onclick="showContent('option5')">Schedule Of Examination</a></li>
+        <li><a href="#" onclick="showContent('option6')">Uniform</a></li>
+
+        <h3>Courses</h3>
+        <li><a href="#" onclick="showContent('option7')">Semester 1</a></li>
+        <li><a href="#" onclick="showContent('option8')">Semester 2</a></li>
+        <li><a href="#" onclick="showContent('option9')">Semester 3</a></li>
+        <li><a href="#" onclick="showContent('option10')">Semester 4</a></li>
+        <li><a href="#" onclick="showContent('option11')">Semester 5</a></li>
+        <li><a href="#" onclick="showContent('option12')">Semester 6</a></li>
+        <li><a href="previouspapers.html" id="qp">Previous Papers</a></li>
+      </ul>
+    </div>
+    <div class="content container" id="content">
+      <h2>What is BCA?</h2>
+      <p>The full form of BCA is Bachelor's in Computer Application. BCA is a 3-year undergraduate degree
+        programme that focuses on knowledge of the basics of computer application and software development. A
+        BCA degree is considered to be at par with a BTech/BE degree in Computer Science or Information
+        Technology. The degree helps interested students in setting up a sound academic base for an advanced
+        career in Computer Applications. The course of BCA includes database management systems, operating
+        systems, software engineering, web technology and languages such as C, C++, HTML, Java etc.
+      </p>
+      <small>Download the prospectus from below:</small><br>
+      <a href="/docs/BCA-prospectus.pdf" target="_blank" class="btn btn-secondary">Download Now</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="container footer__container">
+      <div class="footer__1">
+        <a href="index.html" class="footer__logo">
+          <img src="/assets/bca-logo.svg" alt="bca-logo">
+        </a>
+        <p>A Place to Connect, Learn and Collaborate</p>
+      </div>
+
+      <div class="footer__2">
+        <h4>About</h4>
+        <ul class="permalinks">
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="aboutus.html">How We Work?</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__3">
+        <h4>Support</h4>
+        <ul class="privacy">
+          <li><a href="terms&cond.html">Terms and Conditions</a></li>
+          <li><a href="contactus.html">Help Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__4">
+        <h4>Contact Us</h4>
+        <div>
+          <p><a href="tel:++91 7015 325 046">+91 7015 325 046</a></p>
+          <p><a href="https://mail.google.com" target="_blank">bcacommunity23@gmail.com</a></p>
         </div>
-        <div class="footer__copyright">
-          <small>Copyright &copy; BCA <span id="date"></span></small><br>
-          <small>An Initiative By <a href="https://tenaciousthree-portfolio.vercel.app/" target="_blank"><em>Tenacious Three</em></a></small>
-        </div>
-      </footer>
 
-    <script src="js/script.js"></script>
-    
+        <ul class="footer__socials">
+          <li>
+            <a href="https://m.facebook.com/bcasolan" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; BCA <span id="date"></span></small><br>
+      <small>An Initiative By <a href="https://tenaciousthree-portfolio.vercel.app/" target="_blank"><em>Tenacious
+            Three</em></a></small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/acad.js"></script>
+  <script src="js/date.js"></script>
+
 </body>
 
 </html>

@@ -524,6 +524,10 @@
     font-size: 16px;
   }
 
+  .note-section-container h2{
+    font-size: 34px;
+  }
+
   .course-section-container h2 {
     font-size: 34px;
   }
@@ -602,6 +606,10 @@
   }
 
   .academic-section-container .textbooks-refrence-guides-container {
+    grid-template-columns: 1fr;
+  }
+
+  .note-section-container .notes {
     grid-template-columns: 1fr;
   }
 

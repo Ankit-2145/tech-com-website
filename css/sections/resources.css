@@ -252,6 +252,30 @@
   object-fit: contain;
 }
 
+/* notes */
+
+.note-section-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 90px 0 30px 0;
+}
+
+.note-section-container .notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.note-section-container .notes h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-light);
+  padding: 10px 0 40px 0;
+  text-align: center;
+}
+
 /* Online Courses & Certifications */
 
 .course-section-container h2 {

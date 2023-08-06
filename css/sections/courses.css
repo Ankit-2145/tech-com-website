@@ -383,23 +383,27 @@
   }
 
   .all-course h2 {
-    padding-top: 675px;
+    padding-top: 690px;
+  }
+
+  .all-course p {
+    font-size: 16px;
   }
 
   .course-content .course-content-offers article {
     width: 354px;
-    left: 18px;
+    left: 37px;
     top: 565px;
   }
 
   .course-content .course-content-offers #even {
     top: 369px;
-    left: 24px;
+    left: 36px;
   }
 
   .course-content .course-content-offers #odd {
     top: 784px;
-    left: 25px;
+    left: 36px;
   }
 }
 

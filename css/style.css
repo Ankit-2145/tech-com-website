@@ -460,9 +460,9 @@ nav button {
 }
 
 .feedback-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  overflow-x: hidden;
 }
 
 .feedbacks a {
@@ -481,22 +481,12 @@ nav button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 265px;
-  width: 385px !important;
+  height: 300px;
+  width: 390px;
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 10px;
-  animation: shift 25s linear infinite;
-}
-
-@keyframes shift {
-  5% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-500%);
-  }
 }
 
 .feedback-container article:hover {

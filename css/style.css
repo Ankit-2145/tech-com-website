@@ -497,7 +497,7 @@ nav button {
 .feedback-container article p {
   font-size: 16px;
   font-weight: 400;
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .feedback-container article .feedback-info {

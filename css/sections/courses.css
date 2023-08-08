@@ -17,7 +17,7 @@
 
 .course-head-container .head-text p {
   color: var(--color-primary);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 1.9;
@@ -79,7 +79,7 @@
 .course-content .course-content-offers article {
   padding: 32px 53px;
   border-radius: 20px;
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,6 +181,11 @@
   padding: 10px 0 10px 0;
 }
 
+.all-course .courses-container article small a {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
 .all-course .courses-container article .durations {
   display: flex;
   justify-content: space-between;
@@ -188,7 +193,7 @@
   margin: 26px 0 37px 0;
 }
 
-.all-course .courses-container article a {
+.all-course .courses-container article #enroll{
   padding: 10px 20px;
   background: var(--color-secondary);
   color: var(--color-white);
@@ -198,7 +203,7 @@
   border-radius: 20px;
 }
 
-.all-course .courses-container article a:hover {
+.all-course .courses-container article #enroll:hover {
   box-shadow: 0px 4px 5px var(--color-light);
 }
 

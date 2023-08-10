@@ -193,7 +193,7 @@
   margin: 26px 0 37px 0;
 }
 
-.all-course .courses-container article #enroll{
+.all-course .courses-container article #enroll {
   padding: 10px 20px;
   background: var(--color-secondary);
   color: var(--color-white);
@@ -201,6 +201,17 @@
   font-size: 16px;
   font-weight: 600;
   border-radius: 20px;
+}
+
+.all-course .courses-container article #enroll-closed {
+  padding: 10px 20px;
+  background: var(--color-disable);
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .all-course .courses-container article #enroll:hover {

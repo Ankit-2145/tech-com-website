@@ -19,6 +19,7 @@
   --color-warning: #f7c94b;
   --color-shadow: rgba(0, 0, 0, 0.25);
   --color-border-bottom: #dadada;
+  --color-disable: #118bfd6f;
 
   --transition: all 0.5s ease-in-out;
 }
@@ -273,7 +274,7 @@ nav button {
   border-radius: 10px;
   margin-bottom: 40px;
   box-shadow: 0 4px 3px var(--color-shadow);
-  animation: lightUp 2s ease-in-out infinite;
+  /* animation: lightUp 2s ease-in-out infinite; */
 }
 
 @keyframes lightUp {

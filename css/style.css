@@ -30,6 +30,13 @@ body {
   scroll-behavior: smooth;
   /* height: 5000px; */
 }
+#banner {
+  background-color: var(--color-primary);
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 8px;
+}
 
 .container {
   width: 1260px;
@@ -63,7 +70,7 @@ nav {
   width: 100vw;
   height: 5rem;
   position: fixed;
-  top: 0;
+  top: 2;
   z-index: 11;
 }
 
@@ -644,7 +651,6 @@ footer ul li a:hover {
   nav .submenu li {
     font-size: 14px;
   }
-
 
   nav .submenu li a {
     color: var(--color-dark-grey);

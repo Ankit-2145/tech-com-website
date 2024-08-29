@@ -1,9 +1,9 @@
 // change navbar styles on scroll
+const nav = document.querySelector("nav");
 
 window.addEventListener("scroll", () => {
-  document
-    .querySelector("nav")
-    .classList.toggle("window-scroll", window.scrollY > 0);
+  nav.classList.toggle("window-scroll", window.scrollY > 0);
+  nav.style.top = 0;
 });
 
 //show/hide nav menu
@@ -27,7 +27,3 @@ const closeNav = () => {
 };
 
 closeBtn.addEventListener("click", closeNav);
-
-
-
-

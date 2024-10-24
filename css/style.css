@@ -28,14 +28,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
-  /* height: 5000px; */
-}
-#banner {
-  background-color: var(--color-primary);
-  color: white;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 8px;
 }
 
 .container {
@@ -52,6 +44,12 @@ body {
   color: var(--color-white);
   border-radius: 10px;
   text-align: center;
+}
+
+.btn-new {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
 }
 
 .btn:hover {
@@ -126,7 +124,7 @@ nav button {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 80px;
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 .header-container .header-left h1 {

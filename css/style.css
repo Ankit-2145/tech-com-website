@@ -124,7 +124,12 @@ nav button {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 80px;
-  margin-top: 120px;
+  padding-top: 120px;
+}
+
+header #message {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
 }
 
 .header-container .header-left h1 {
